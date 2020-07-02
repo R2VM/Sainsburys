@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.223761">
+<testcase classname="Sainsburys website Register and login page" name="Register and login page" time="19.223761">
+<system-out><![CDATA[Given user on login page....................................................passed
+Then user clicks on register link and enters details........................passed
+Then user clicks on login link enters username and password and home page displays.passed
+]]></system-out>
+</testcase>
+</testsuite>

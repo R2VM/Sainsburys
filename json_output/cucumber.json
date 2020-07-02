@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register and login page",
+        "description": "",
+        "id": "sainsburys-website-register-and-login-page;register-and-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14110058700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on login page",
+            "match": {
+              "location": "LoginStepDefinition.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2684149900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on register link and enters details",
+            "match": {
+              "location": "LoginStepDefinition.userClicksOnRegisterLinkAndEntersDetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2429552500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login link enters username and password and home page displays",
+            "match": {
+              "location": "LoginStepDefinition.userClicksOnLoginLinkEntersUsernameAndPasswordAndHomePageDisplays()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sainsburys website Register and login page",
+    "description": "",
+    "id": "sainsburys-website-register-and-login-page",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
